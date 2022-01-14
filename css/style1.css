@@ -992,7 +992,7 @@ body *{
     }
     .hero-button{
         margin-top: 26px;
-        width: 100%;
+        width: 95%;
     }
 
     .title{
@@ -1011,7 +1011,6 @@ body *{
         height: 66px;
         margin-bottom: 22px;
         text-align: center;
-        color: #E3B873;
     }
 
     .flex-container2 .container-text{
