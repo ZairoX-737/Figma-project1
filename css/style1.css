@@ -935,6 +935,7 @@ body *{
 .hero7_form-inputbox_item2 input{
     width: 520px;
 }
+
 .hero7_form button{
     box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
 }
@@ -968,6 +969,19 @@ body *{
 }
 
 .hero3-mobile-button{
+    display: none;
+}
+
+.hero7-mobile_title{
+    display: none;
+}
+
+.hero7_ord3{
+    width: 100%;
+    height: 465px;
+}
+
+.hero7-button_mobile{
     display: none;
 }
 
@@ -1239,8 +1253,106 @@ body *{
     }
 
     .hero5{
-        margin-top: 55px;
+        display: none;
     }
+    .hero6{
+        display: none;
+    }
+
+    .hero7{
+        height: auto;
+    }
+
+    .hero7-wrapper1{
+        display: none;
+    }
+
+    .hero7-wrapper{
+        background: #181818;
+        height:auto;
+    }
+    .hero7-wrapper::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .hero7-wrapper_container{
+        max-width: 344px;
+        height: 1195px;
+        margin-top: 0;
+        padding-bottom: 49px;
+    }
+
+    .hero7_form{
+        width: 100%;
+        max-width: 344px;
+        height: 500px;
+        padding-top: 50px;
+    }
+    .hero7_form-inputbox{
+        width: 100%;
+        height: auto;
+    }
+    .input-box1_item{
+        margin-top: 63px;
+        width: 100%
+    }
+    
+    .hero7_form-inputbox_item1{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero7_form-inputbox_item2 input{
+        width: 100%;
+    }
+
+    .hero7-desktop_title{
+        display: none;
+    }
+
+    .hero7-mobile_title{
+        display: block;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .hero7_social{
+        width:99px;
+        height: 39px;
+    }
+
+    .hero7_social div{
+        width: 39px;
+        height: 39px;
+    }
+    
+    .hero7-button_desktop{
+        display: none;
+    }
+    .hero7-button_mobile{
+        display: block;
+    }
+
+    .hero7_ord1{
+        order:2;
+    }
+    .hero7_ord2{
+        order:3;
+    }
+    .hero7_ord3{
+        order:1;
+        height: 255px;
+    }
+
+    footer{
+        display: none;
+    }
+    
+    
 
     
 }
