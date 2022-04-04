@@ -567,6 +567,7 @@ body *{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-right: 100px;
 }
 .hero5-wrapper_item_list{
     width: 390px;
@@ -985,7 +986,7 @@ body *{
     display: none;
 }
 
-@media all and (max-width: 768px) { 
+@media all and (max-width: 768px){ 
     .header nav{
         display: none;
     }
@@ -1351,8 +1352,4 @@ body *{
     footer{
         display: none;
     }
-    
-    
-
-    
 }
