@@ -1345,6 +1345,7 @@ body *{
     }
 
     .hero5-1-mob-title{
+        display: block;
         margin-bottom: 145px;
     }
 
