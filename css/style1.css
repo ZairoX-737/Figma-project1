@@ -1065,6 +1065,10 @@ body *{
     display: none;
 }
 
+.hero5-1-mob-title{
+    display: none;
+}
+
 @media all and (max-width: 768px){ 
     .header nav{
         display: none;
@@ -1340,7 +1344,7 @@ body *{
         display: none;
     }
 
-    .hero5-1-title{
+    .hero5-1-mob-title{
         margin-bottom: 145px;
     }
 
